@@ -1,0 +1,33 @@
+# requirements_glue_clip.txt
+# Minimal dependencies to run GLUE (T5) + CLIP (ViT-B/32) scripts in this bundle.
+# Pinned versions are chosen to match the provided pip list where available.
+
+# ---- core ----
+torch==2.8.0
+torchvision==0.23.0
+
+numpy
+tqdm==4.67.1
+PyYAML
+
+# ---- HF stack (GLUE / T5) ----
+transformers==4.53.0
+tokenizers==0.21.2
+datasets
+evaluate
+accelerate
+peft
+safetensors==0.5.3
+sentencepiece
+
+# ---- metrics ----
+scikit-learn==1.7.0
+scipy==1.15.3
+
+# ---- CLIP ----
+open_clip_torch
+timm==1.0.20
+Pillow
+
+# ---- logging (optional) ----
+wandb==0.21.4

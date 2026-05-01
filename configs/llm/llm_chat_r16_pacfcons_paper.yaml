@@ -1,0 +1,23 @@
+domain: llm
+entry: src/llm/main_llm.py
+args:
+  mode: paper
+  task: chat
+  variant: lora_pacf
+  model: meta-llama/Llama-2-7b-hf
+  out: runs/llm/chat/r16/paper
+  epochs: 2
+  lr: 5e-4
+  warmup: 0.03
+  batch: 2
+  accum: 16
+  eval_bs: 4
+  scheduler: cosine
+  wd: 0.0
+  lora_r: 16
+  lora_alpha: 16
+  lora_dropout: 0.05
+  flat_sigma: 0.05
+  pac_lambda: 1.0e-06
+  reg_warm: 0.6
+  seeds: 1,2,3

@@ -1,0 +1,25 @@
+domain: sdxl
+entry: src/sdxl/pacf_sdxl.py
+args:
+  mode: seeds
+  variant: pacf
+  pretrained: stabilityai/stable-diffusion-xl-base-1.0
+  instance_data: data/example_instance_images
+  instance_prompt: "a TOK icon"
+  rank: 4
+  alpha: 4
+  lora_scope: both
+  steps: 500
+  batch: 1
+  grad_accum: 1
+  lr: 1.0e-4
+  mixed_precision: bf16
+  use_memory_efficient_attention: true
+  flat_sigma: 0.10
+  pacf_gamma: 0.05
+  pac_lambda: 1.0e-6
+  reg_warmup_ratio: 0.60
+  eval_guidance: 6.0
+  eval_steps: 50
+  seeds: 1,2,3
+  output_dir: runs/sdxl/3d_icons/pacf_cons

@@ -1,0 +1,27 @@
+# requirements_sdxl.txt
+# Minimal dependencies to run SDXL personalization (LoRA / Flat-LoRA / PACF) in this bundle.
+# Versions are aligned to the provided pip list where available.
+
+# ---- core ----
+torch==2.4.1+cu121
+numpy==1.26.4
+pandas==2.3.3
+tqdm==4.67.1
+Pillow==12.0.0
+
+# ---- diffusion + adapters ----
+diffusers==0.27.2
+transformers==4.44.2
+accelerate==0.34.2
+peft==0.17.0
+huggingface-hub==0.25.2
+safetensors==0.6.2
+tokenizers==0.19.1
+
+# ---- dataset helpers (optional but commonly used) ----
+datasets==4.4.0
+PyYAML==6.0.3
+requests==2.32.5
+
+# ---- logging (optional) ----
+wandb==0.23.0

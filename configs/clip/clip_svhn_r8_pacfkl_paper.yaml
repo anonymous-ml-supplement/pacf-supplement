@@ -1,0 +1,11 @@
+domain: clip
+entry: src/clip/pacf_clip.py
+args:
+  mode: paper
+  dataset: svhn
+  r: 8
+  epochs: 10
+  lr_lora: 5e-4
+  pac_lambda: 5.0e-05
+  reg_warmup_ratio: 0.3
+  seeds: 1,2,3

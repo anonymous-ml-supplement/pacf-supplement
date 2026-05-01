@@ -1,0 +1,22 @@
+# Minimal requirements (adjust/pin versions to match your experiment environment)
+numpy
+pandas
+tqdm
+PyYAML
+
+torch
+torchvision
+
+transformers
+datasets
+evaluate
+peft
+accelerate
+diffusers
+open_clip_torch
+wandb
+
+# Optional: LLM judge eval
+openai
+human-eval
+Pillow

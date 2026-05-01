@@ -1,0 +1,13 @@
+domain: glue
+entry: src/glue/pacf_glue.py
+args:
+  mode: paper
+  task: mnli
+  ranks: '16'
+  epochs: 1
+  lr: 3e-4
+  batch_size: 32
+  pac_lambda: 3.0e-06
+  wr: 0.4
+  flat_sigma_max: 0.05
+  seeds_stageC: 1,2,3

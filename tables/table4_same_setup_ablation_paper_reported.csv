@@ -1,0 +1,5 @@
+Dataset,Rank,LoRA,LoRA+L2,PACF-KL,PACF-Cons,Source_note
+CoLA,r=8,82.55,83.13,83.22,84.18,Paper-reported summary value; raw ablation log not included in the uploaded artifact
+CoLA,r=16,83.03,83.41,83.51,83.70,Paper-reported summary value; raw ablation log not included in the uploaded artifact
+CIFAR-10,r=8,97.90,98.18,98.18,98.13,Paper-reported summary value; raw ablation log not included in the uploaded artifact
+CIFAR-10,r=16,98.10,98.16,98.16,98.05,Paper-reported summary value; raw ablation log not included in the uploaded artifact
