@@ -1,9 +1,9 @@
 # Manifest
 
-This file lists the contents of the cleaned anonymous PACF supplemental artifact.
+Files included in this anonymous supplemental artifact:
 
 - `ANONYMIZATION.md`
-- `MANIFEST.md`
+- `CHANGELOG_v6.md`
 - `README.md`
 - `REPRODUCIBILITY.md`
 - `configs/clip/clip_cars_r16_pacfkl_paper.yaml`
@@ -55,7 +55,22 @@ This file lists the contents of the cleaned anonymous PACF supplemental artifact
 - `src/llm/main_llm.py`
 - `src/sdxl/pacf_sdxl.py`
 - `tables/README.md`
-- `tables/appendix_table6_mtbench_gpt52_summary.csv`
+- `tables/appendix_table10_glue_pacf_hyperparameters.csv`
+- `tables/appendix_table11_vision_pacf_hyperparameters.csv`
+- `tables/appendix_table12_llm_task_data_summary.csv`
+- `tables/appendix_table13_llm_shared_optimization_lora_config.csv`
+- `tables/appendix_table14_llm_reg_space_summary.csv`
+- `tables/appendix_table15_llm_pacf_selected_hyperparameters.csv`
+- `tables/appendix_table16_llm_seed_variability_summary.csv`
+- `tables/appendix_table17_sdxl_lora_personalization_hyperparameters.csv`
+- `tables/appendix_table18_sdxl_regularization_knobs.csv`
+- `tables/appendix_table3_glue_summary.csv`
+- `tables/appendix_table4_clip_summary.csv`
+- `tables/appendix_table5_same_setup_ablation_paper_reported.csv`
+- `tables/appendix_table6_rdrop_probe_paper_reported.csv`
+- `tables/appendix_table7_mtbench_gpt52_summary.csv`
+- `tables/appendix_table8_10seed_checks_summary.csv`
+- `tables/appendix_table9_flat_lora_schedule_summary.csv`
 - `tables/clip/cars.csv`
 - `tables/clip/cifar10.csv`
 - `tables/clip/cifar100.csv`
@@ -70,8 +85,7 @@ This file lists the contents of the cleaned anonymous PACF supplemental artifact
 - `tables/llm/llm_chat_gpt5_2.csv`
 - `tables/llm/llm_code.csv`
 - `tables/llm/llm_math.csv`
-- `tables/main_table1_glue_summary.csv`
-- `tables/main_table2_clip_summary.csv`
-- `tables/main_table3_llm_summary.csv`
-- `tables/table4_same_setup_ablation_paper_reported.csv`
-- `tables/table5_rdrop_probe_paper_reported.csv`
+- `tables/main_table1_10seed_audit.csv`
+- `tables/main_table2_llm_summary.csv`
+- `tables/table_coverage_audit_v6.csv`
+- `tables/table_value_audit_v6.csv`

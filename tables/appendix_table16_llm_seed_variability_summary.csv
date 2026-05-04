@@ -1,0 +1,4 @@
+Method,GSM8K std (r=8),GSM8K std (r=16),HumanEval std (r=8),HumanEval std (r=16),Source_note
+LoRA,0.57,0.87,2.46,3.00,Aligned with the standard deviations reported in main Table 2
+Flat-LoRA,0.95,0.82,1.04,2.77,Aligned with the standard deviations reported in main Table 2
+PACF,0.32,0.61,2.55,3.24,Aligned with the standard deviations reported in main Table 2

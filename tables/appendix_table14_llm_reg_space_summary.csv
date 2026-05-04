@@ -1,0 +1,7 @@
+Item,Value
+Flat-LoRA sigma_max,0.05
+Flat-LoRA rho / T,0.05 / 1
+PACF-Cons gamma_max,0.05
+PACF samples per step (M),1
+Candidate or selected values of mu (PACF-Cons consistency weight),task-specific; see Appendix Table 15
+Grid over rho_reg (warm-up ratio),task-specific small grid; see Appendix Table 15

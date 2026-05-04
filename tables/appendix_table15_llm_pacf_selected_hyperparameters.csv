@@ -1,0 +1,4 @@
+Task,mu (r=8),rho_reg (r=8),mu (r=16),rho_reg (r=16)
+Math (GSM8K),1e-5,0.30,5e-6,0.25
+Chat (MT-Bench),2e-6,0.60,1.5e-6,0.60
+Code (HumanEval),1e-5,0.25,5e-5,0.25

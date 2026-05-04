@@ -1,0 +1,9 @@
+Method,CoLA (MCC),CIFAR-10 (top-1),Source_note
+LoRA,0.58387±0.01713,0.98015±0.00099,Paper-reported summary value; raw 10-seed logs were not present in the uploaded artifact
+Flat-LoRA,0.58018±0.01750,0.97988±0.00068,Paper-reported summary value; raw 10-seed logs were not present in the uploaded artifact
+LoRA+L2,0.58788±0.01329,0.97993±0.00110,Paper-reported summary value; raw 10-seed logs were not present in the uploaded artifact
+PACF-KL,0.58413±0.01788,0.98019±0.00112,Paper-reported summary value; raw 10-seed logs were not present in the uploaded artifact
+PACF-Cons,0.58774±0.01957,0.98025±0.00062,Paper-reported summary value; raw 10-seed logs were not present in the uploaded artifact
+PiSSA,0.58289±0.01550,0.97230±0.00123,Paper-reported summary value; raw 10-seed logs were not present in the uploaded artifact
+CLoRA,0.58463±0.00856,0.98016±0.00087,Paper-reported summary value; raw 10-seed logs were not present in the uploaded artifact
+StelLA-style,0.57497±0.01252,0.97178±0.00130,Paper-reported summary value; raw 10-seed logs were not present in the uploaded artifact

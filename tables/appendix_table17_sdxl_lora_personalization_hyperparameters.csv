@@ -1,0 +1,10 @@
+Item,Value
+Backbone,SDXL base (stabilityai/stable-diffusion-xl-base-1.0)
+Dataset,3D Icons (23 images; 8/23 square)
+Training steps,500
+Batch / accum,1 / 1
+Learning rate,1e-4
+LoRA rank / alpha,4 / 4
+Trainable modules,UNet + text encoder (LoRA)
+Mixed precision,bf16
+Memory efficient attention,enabled

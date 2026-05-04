@@ -1,0 +1,4 @@
+Task,Train set (used size),Eval set,Max length
+Math,MetaMath (100k),GSM8K test,1024
+Chat,WizardLM (52k),MT-Bench prompts,1024
+Code,CodeFeedback (100k),HumanEval,1024

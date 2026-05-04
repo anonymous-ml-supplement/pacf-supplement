@@ -1,0 +1,6 @@
+Task,Epochs,lambda_PAC (r=8),lambda_PAC (r=16),rho_reg (r=8),rho_reg (r=16)
+MNLI,1,6e-6,3e-6,0.40,0.40
+SST-2,10,3.5e-5,1.7e-5,0.30,0.36
+CoLA,10,1.5e-5,1.1e-5,0.30,0.34
+QNLI,1,2e-5,1e-5,0.30,0.36
+MRPC,10,2e-5,8e-6,0.30,0.30

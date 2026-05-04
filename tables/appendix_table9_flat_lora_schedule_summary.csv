@@ -1,0 +1,5 @@
+Domain,sigma_max,rho,T
+GLUE (T5),0.05,0.05,1
+CLIP ViT-B/32,0.05,0.05,1
+Llama 2-7B,0.05,0.05,1
+SDXL,0.10,0.05,1

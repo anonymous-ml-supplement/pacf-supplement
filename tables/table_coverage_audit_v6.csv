@@ -1,0 +1,20 @@
+Paper item,Supporting file,Status
+"Table 1, 10-seed controlled audit on CoLA and CIFAR-10",tables/main_table1_10seed_audit.csv,covered and aligned to current table numbering
+"Table 2, LLM results",tables/main_table2_llm_summary.csv; tables/llm/llm_math.csv; tables/llm/llm_code.csv; tables/llm/llm_chat_gpt4_1.csv,covered and aligned to current table numbering
+"Table 3, GLUE results",tables/appendix_table3_glue_summary.csv; tables/glue/*.csv,covered
+"Table 4, CLIP image classification results",tables/appendix_table4_clip_summary.csv; tables/clip/*.csv,covered
+"Table 5, same-setup rank/objective ablation",tables/appendix_table5_same_setup_ablation_paper_reported.csv,covered as paper-reported summary
+"Table 6, R-Drop probe",tables/appendix_table6_rdrop_probe_paper_reported.csv,covered as paper-reported summary
+"Table 7, MT-Bench with gpt-5.2 judge",tables/appendix_table7_mtbench_gpt52_summary.csv; tables/llm/llm_chat_gpt5_2.csv,covered
+"Table 8, additional 10-seed controlled checks",tables/appendix_table8_10seed_checks_summary.csv,covered as paper-reported summary
+"Table 9, Flat-LoRA baseline schedule",tables/appendix_table9_flat_lora_schedule_summary.csv; configs/*,covered
+"Table 10, GLUE PACF hyperparameters",tables/appendix_table10_glue_pacf_hyperparameters.csv; configs/glue/*,covered
+"Table 11, CLIP PACF hyperparameters",tables/appendix_table11_vision_pacf_hyperparameters.csv; configs/clip/*,covered
+"Table 12, LLM task/data summary",tables/appendix_table12_llm_task_data_summary.csv,covered
+"Table 13, LLM shared optimization and LoRA config",tables/appendix_table13_llm_shared_optimization_lora_config.csv; configs/llm/*,covered
+"Table 14, LLM regularization knobs and search space",tables/appendix_table14_llm_reg_space_summary.csv,covered
+"Table 15, selected PACF-Cons hyperparameters",tables/appendix_table15_llm_pacf_selected_hyperparameters.csv; configs/llm/*,covered
+"Table 16, LLM seed variability",tables/appendix_table16_llm_seed_variability_summary.csv; tables/main_table2_llm_summary.csv,covered
+"Table 17, SDXL LoRA personalization hyperparameters",tables/appendix_table17_sdxl_lora_personalization_hyperparameters.csv; configs/sdxl/*,covered
+"Table 18, SDXL regularization knobs",tables/appendix_table18_sdxl_regularization_knobs.csv; configs/sdxl/*,covered
+"Figure 1, qualitative SDXL example",results/sdxl_qualitative/*.png,covered

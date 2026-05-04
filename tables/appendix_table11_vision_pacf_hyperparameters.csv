@@ -1,0 +1,6 @@
+Dataset,Epochs,lambda_PAC (r=8),lambda_PAC (r=16),rho_reg (r=8),rho_reg (r=16),Shared_note
+CIFAR-10,10,1.0e-4,1.0e-4,0.30,0.30,"epochs=10, batch size=128, lr_LoRA=5e-4, full finetune lr=1e-4"
+CIFAR-100,10,2.0e-4,2.5e-4,0.30,0.35,"epochs=10, batch size=128, lr_LoRA=5e-4, full finetune lr=1e-4"
+Cars,10,1.0e-4,1.6e-4,0.30,0.38,"epochs=10, batch size=128, lr_LoRA=5e-4, full finetune lr=1e-4"
+SVHN,10,5.0e-5,9.0e-5,0.30,0.36,"epochs=10, batch size=128, lr_LoRA=5e-4, full finetune lr=1e-4"
+DTD,10,1.0e-4,3.6e-4,0.30,0.42,"epochs=10, batch size=128, lr_LoRA=5e-4, full finetune lr=1e-4"

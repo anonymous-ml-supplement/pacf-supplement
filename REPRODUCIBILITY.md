@@ -65,7 +65,7 @@ The SDXL artifact is qualitative unless quantitative metrics are provided separa
 
 ## Table inspection
 
-Sanitized CSV exports and clean paper-table summaries are under `tables/`. The package does not silently modify numeric results. Table 4 and Table 5 are included as paper-reported summaries because their raw ablation logs were not present in the uploaded artifact.
+Sanitized CSV exports and clean paper-table summaries are under `tables/`. The package does not silently modify numeric results. Table 5, Table 6, and Table 8 are included as paper-reported summaries because separate raw ablation, probe, or 10-seed logs were not present in the uploaded artifact.
 
 ## Randomness and seeds
 

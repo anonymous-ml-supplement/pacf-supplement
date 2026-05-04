@@ -1,0 +1,8 @@
+method_display,method_key,rank,metric,mean,std,paper_display
+Full FT,full,all,MT-Bench_gpt5.2,5.50,0.15,5.50±0.15
+LoRA,lora,8,MT-Bench_gpt5.2,5.96,0.05,5.96±0.05
+Flat-LoRA,flat_lora,8,MT-Bench_gpt5.2,5.95,0.07,5.95±0.07
+PACF,pacf,8,MT-Bench_gpt5.2,6.04,0.08,6.04±0.08
+LoRA,lora,16,MT-Bench_gpt5.2,6.03,0.11,6.03±0.11
+Flat-LoRA,flat_lora,16,MT-Bench_gpt5.2,5.91,0.09,5.91±0.09
+PACF,pacf,16,MT-Bench_gpt5.2,6.05,0.11,6.05±0.11

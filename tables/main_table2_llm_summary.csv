@@ -1,0 +1,22 @@
+method_display,method_key,rank,metric,mean,std,paper_display
+Full FT,full,all,GSM8K_EM,51.15,0.53,51.15±0.53
+Full FT,full,all,HumanEval_pass1,37.80,2.77,37.80±2.77
+Full FT,full,all,MT-Bench_gpt4.1,5.27,0.10,5.27±0.10
+LoRA,lora,8,GSM8K_EM,57.54,0.57,57.54±0.57
+LoRA,lora,8,HumanEval_pass1,30.89,2.46,30.89±2.46
+LoRA,lora,8,MT-Bench_gpt4.1,5.96,0.06,5.96±0.06
+Flat-LoRA,flat_lora,8,GSM8K_EM,57.29,0.95,57.29±0.95
+Flat-LoRA,flat_lora,8,HumanEval_pass1,30.81,1.04,30.81±1.04
+Flat-LoRA,flat_lora,8,MT-Bench_gpt4.1,5.99,0.07,5.99±0.07
+PACF,pacf,8,GSM8K_EM,57.64,0.32,57.64±0.32
+PACF,pacf,8,HumanEval_pass1,31.30,2.55,31.30±2.55
+PACF,pacf,8,MT-Bench_gpt4.1,6.04,0.09,6.04±0.09
+LoRA,lora,16,GSM8K_EM,58.00,0.87,58.00±0.87
+LoRA,lora,16,HumanEval_pass1,32.11,3.00,32.11±3.00
+LoRA,lora,16,MT-Bench_gpt4.1,6.03,0.14,6.03±0.14
+Flat-LoRA,flat_lora,16,GSM8K_EM,57.89,0.82,57.89±0.82
+Flat-LoRA,flat_lora,16,HumanEval_pass1,33.18,2.77,33.18±2.77
+Flat-LoRA,flat_lora,16,MT-Bench_gpt4.1,6.00,0.10,6.00±0.10
+PACF,pacf,16,GSM8K_EM,58.48,0.61,58.48±0.61
+PACF,pacf,16,HumanEval_pass1,33.74,3.24,33.74±3.24
+PACF,pacf,16,MT-Bench_gpt4.1,6.05,0.15,6.05±0.15

@@ -1,0 +1,11 @@
+Item,Value
+Backbone,Llama 2-7B (HF)
+Epochs,2
+Optimizer,AdamW
+LR / schedule / warmup,5e-4 / cosine / 0.03
+Micro-batch / accum / eval-bs,2 / 16 / 4
+Weight decay / grad clip,0.0 / 1.0
+Precision / checkpointing,bf16 / enabled
+LoRA ranks,"{8, 16}"
+LoRA alpha / dropout,16 / 0.05
+Target modules,"q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj"
