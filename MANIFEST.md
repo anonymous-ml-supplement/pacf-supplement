@@ -3,7 +3,8 @@
 Files included in this anonymous supplemental artifact:
 
 - `ANONYMIZATION.md`
-- `CHANGELOG_v6.md`
+- `CHANGELOG_v7.md`
+- `MANIFEST.md`
 - `README.md`
 - `REPRODUCIBILITY.md`
 - `configs/clip/clip_cars_r16_pacfkl_paper.yaml`
@@ -69,7 +70,7 @@ Files included in this anonymous supplemental artifact:
 - `tables/appendix_table5_same_setup_ablation_paper_reported.csv`
 - `tables/appendix_table6_rdrop_probe_paper_reported.csv`
 - `tables/appendix_table7_mtbench_gpt52_summary.csv`
-- `tables/appendix_table8_10seed_checks_summary.csv`
+- `tables/appendix_table8_matched_baseline_coefficient_grids.csv`
 - `tables/appendix_table9_flat_lora_schedule_summary.csv`
 - `tables/clip/cars.csv`
 - `tables/clip/cifar10.csv`
@@ -86,6 +87,8 @@ Files included in this anonymous supplemental artifact:
 - `tables/llm/llm_code.csv`
 - `tables/llm/llm_math.csv`
 - `tables/main_table1_10seed_audit.csv`
+- `tables/main_table1_cola_pacf_cons_10seed_raw.csv`
+- `tables/main_table1_cola_pacf_cons_10seed_summary_from_raw.csv`
 - `tables/main_table2_llm_summary.csv`
-- `tables/table_coverage_audit_v6.csv`
-- `tables/table_value_audit_v6.csv`
+- `tables/table_coverage_audit_v7.csv`
+- `tables/table_value_audit_v7.csv`

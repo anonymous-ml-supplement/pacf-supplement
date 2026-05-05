@@ -1,0 +1,3 @@
+dataset,anchor_pacf_kl_lambda_r8,grid_lower,grid_upper,paper_display_anchor,paper_display_lower,paper_display_upper,notes
+CoLA (T5-Base),1.5e-5,1.5e-6,1.5e-4,1.5 × 10^{-5},1.5 × 10^{-6},1.5 × 10^{-4},Matched-baseline coefficient grid for the 10-seed audit.
+CIFAR-10 (CLIP ViT-B/32),1.0e-4,1.0e-5,1.0e-3,1.0 × 10^{-4},1.0 × 10^{-5},1.0 × 10^{-3},Matched-baseline coefficient grid for the 10-seed audit.

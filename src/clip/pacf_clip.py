@@ -78,7 +78,7 @@ class CFG:
     # multi-seed
     seeds_stageC: Tuple[int,...] = (1,2,3)
     # wandb
-    wandb_project_prefix: str = "pacf_clip_v6"
+    wandb_project_prefix: str = "pacf_clip"
 
 CFG = CFG()
 

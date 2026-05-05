@@ -4,7 +4,7 @@ This repository is an anonymous supplemental artifact for a NeurIPS 2026 submiss
 
 PACF studies robustness in the trainable LoRA coordinate space rather than in the full frozen parameter space. PACF-Cons is the primary consistency objective; it adds one perturbed forward pass and penalizes prediction-level disagreement under LoRA-subspace perturbations. PACF-KL is included as a lightweight LoRA-supported posterior and diagnostic regime with no additional perturbed forward pass. Under fixed variances, the optimized PACF-KL penalty is gradient-equivalent to LoRA-only L2 regularization, so this package does not present PACF-KL as a standalone optimizer-level novelty.
 
-This v6 artifact aligns the supplemental table files to the current submitted paper numbering. It adds a direct support file for main Table 1, updates the LLM support files for main Table 2, and renumbers the appendix support files so they match Tables 3 through 18. Pretrained model weights, datasets, API credentials, and private run services are not redistributed.
+This v7 artifact aligns the supplemental table files to the current submitted paper numbering. It updates main Table 1 with the current PACF-Cons CoLA 10-seed result, adds a sanitized raw per-seed support file for that PACF-Cons CoLA run, keeps the LLM support files for main Table 2, and aligns the appendix support files with Tables 3 through 18. Pretrained model weights, datasets, API credentials, and private run services are not redistributed.
 
 ## Directory structure
 
@@ -56,7 +56,7 @@ Remove `--dry_run` inside the scripts or call `scripts/run_config.py` directly t
 
 ## Inspecting result tables
 
-The `tables/` directory contains clean paper-table summaries and metadata-free CSV exports. The clean summary files are the recommended files for checking the paper tables. The files `tables/table_coverage_audit_v6.csv` and `tables/table_value_audit_v6.csv` map the current paper tables and Figure 1 to supporting supplemental files.
+The `tables/` directory contains clean paper-table summaries and metadata-free CSV exports. The clean summary files are the recommended files for checking the paper tables. The files `tables/table_coverage_audit_v7.csv` and `tables/table_value_audit_v7.csv` map the current paper tables and Figure 1 to supporting supplemental files.
 
 ## External models and datasets
 
