@@ -1,0 +1,16 @@
+paper_table,label,supporting_csv,description,main16_status,audit_note
+1,tab:ten_seed_main,main16_table01_10seed_controlled_audit.csv,10-seed controlled audit,present in main16.tex,checked against main16 table text; PACF-Cons CoLA raw and summary support files also included
+2,tab:rdrop_clean,main16_table02_rdrop_clean_cola.csv,Clean-accuracy CoLA PACF-Cons vs matched LoRA+R-Drop,present in main16.tex,checked against main16 table text
+3,tab:alignment_control,main16_table03_alignment_control_cola.csv,Aligned-vs-misaligned perturbation control,present in main16.tex,checked against main16 table text
+4,tab:glue_full,main16_table04_glue_summary.csv,GLUE summary,present in main16.tex,checked against main16 table text
+5,tab:vision_full,main16_table05_vision_summary.csv,Vision summary,present in main16.tex,checked against main16 table text
+6,tab:llm_full,main16_table06_llm_full.csv,Full Llama 2-7B results,present in main16.tex,checked against main16 table text
+7,tab:rank_objective_ablation,main16_table07_rank_objective_ablation.csv,Same-setup rank and objective ablation,present in main16.tex,checked against main16 table text
+8,tab:rdrop_probe,main16_table08_rdrop_probe.csv,R-Drop probe,present in main16.tex,checked against main16 table text
+9,tab:matched_grid,main16_table09_matched_baseline_grids.csv,Matched coefficient grids,present in main16.tex,checked against main16 table text
+10,tab:flat_lora_cfg,main16_table10_flat_lora_schedule.csv,Flat-LoRA schedule,present in main16.tex,checked against main16 table text
+11,tab:glue_pacf_compact,main16_table11_glue_pacf_hyperparameters.csv,GLUE PACF hyperparameters,present in main16.tex,checked against main16 table text
+12,tab:vision_compact,main16_table12_vision_pacf_hyperparameters.csv,Vision PACF hyperparameters,present in main16.tex,checked against main16 table text
+13,tab:llm_task_data,main16_table13_llm_task_data.csv,LLM task/data summary,present in main16.tex,checked against main16 table text
+14,tab:llm_shared_train,main16_table14_llm_shared_optimization_lora_config.csv,LLM shared optimization and LoRA configuration,present in main16.tex,checked against main16 table text
+15,tab:llm_pacf_selected,main16_table15_llm_pacf_selected_hyperparameters.csv,LLM PACF-Cons hyperparameters,present in main16.tex,checked against main16 table text

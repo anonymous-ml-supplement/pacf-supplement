@@ -1,0 +1,8 @@
+paper_table,label,method,gsm8k_em_mean_pm_std,humaneval_pass1_mean_pm_std,mtbench_score_mean_pm_std,notes
+6,tab:llm_full,Full FT,51.15±0.53,37.80±2.77,5.27±0.10,"three seeds, MT-Bench uses gpt-4.1 judge"
+6,tab:llm_full,LoRA (r=8),57.54±0.57,30.89±2.46,5.96±0.06,three seeds
+6,tab:llm_full,Flat-LoRA (r=8),57.29±0.95,30.81±1.04,5.99±0.07,three seeds
+6,tab:llm_full,PACF-Cons (r=8),57.64±0.32,31.30±2.55,6.04±0.09,three seeds
+6,tab:llm_full,LoRA (r=16),58.00±0.87,32.11±3.00,6.03±0.14,three seeds
+6,tab:llm_full,Flat-LoRA (r=16),57.89±0.82,33.18±2.77,6.00±0.10,three seeds
+6,tab:llm_full,PACF-Cons (r=16),58.48±0.61,33.74±3.24,6.05±0.15,three seeds

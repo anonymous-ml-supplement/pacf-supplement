@@ -1,0 +1,4 @@
+paper_table,label,domain,sigma_max,rho,T
+10,tab:flat_lora_cfg,GLUE (T5),0.05,0.05,1
+10,tab:flat_lora_cfg,CLIP ViT-B/32,0.05,0.05,1
+10,tab:flat_lora_cfg,Llama 2-7B,0.05,0.05,1

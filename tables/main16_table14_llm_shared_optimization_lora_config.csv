@@ -1,0 +1,11 @@
+paper_table,label,item,value
+14,tab:llm_shared_train,Backbone,Llama 2-7B (HF)
+14,tab:llm_shared_train,Epochs,2
+14,tab:llm_shared_train,Optimizer,AdamW
+14,tab:llm_shared_train,LR / schedule / warmup,5e-4 / cosine / 0.03
+14,tab:llm_shared_train,Micro-batch / accum / eval-bs,2 / 16 / 4
+14,tab:llm_shared_train,Weight decay / grad clip,0.0 / 1.0
+14,tab:llm_shared_train,Precision / checkpointing,bf16 / enabled
+14,tab:llm_shared_train,LoRA ranks,"{8,16}"
+14,tab:llm_shared_train,LoRA alpha / dropout,16 / 0.05
+14,tab:llm_shared_train,Target modules,"q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj"

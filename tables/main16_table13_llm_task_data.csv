@@ -1,0 +1,4 @@
+paper_table,label,task,train_set_used_size,eval_set,max_length
+13,tab:llm_task_data,Math,MetaMath (100k),GSM8K test,1024
+13,tab:llm_task_data,Chat,WizardLM (52k),MT-Bench prompts,1024
+13,tab:llm_task_data,Code,CodeFeedback (100k),HumanEval,1024

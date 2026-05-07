@@ -1,0 +1,4 @@
+paper_table,label,task,mu_r8,rho_reg_r8,mu_r16,rho_reg_r16
+15,tab:llm_pacf_selected,Math (GSM8K),1e-5,0.30,5e-6,0.25
+15,tab:llm_pacf_selected,Chat (MT-Bench),2e-6,0.60,1.5e-6,0.60
+15,tab:llm_pacf_selected,Code (HumanEval),1e-5,0.25,5e-5,0.25

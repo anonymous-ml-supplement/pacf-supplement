@@ -1,0 +1,4 @@
+paper_table,label,method,cola_mcc_percent_mean_pm_std,delta_boot_vs_lora_l2_pp_ci,one_sided_wilcoxon_p_vs_pacf_cons,two_sided_wilcoxon_p_vs_pacf_cons,notes
+3,tab:alignment_control,LoRA+L2,58.79±1.33,0 (ref.),0.137,0.275,reference for bootstrap delta
+3,tab:alignment_control,"PACF-Cons-FB (frozen-backbone subspace, matched dim)",57.93±1.31,"-0.86 [-2.08,+0.23]",0.042,0.084,frozen-backbone matched perturbation support
+3,tab:alignment_control,PACF-Cons (LoRA-aligned),59.05±1.23,"+0.26 [-0.36,+0.84]",,,LoRA-coordinate perturbation support

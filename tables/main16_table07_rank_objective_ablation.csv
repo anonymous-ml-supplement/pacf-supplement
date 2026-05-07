@@ -1,0 +1,5 @@
+paper_table,label,dataset,rank,lora,lora_l2,pacf_kl,pacf_cons,notes
+7,tab:rank_objective_ablation,CoLA,r=8,82.55,83.13,83.22,84.18,validation-selected ablation configuration
+7,tab:rank_objective_ablation,CoLA,r=16,83.03,83.41,83.51,83.70,validation-selected ablation configuration
+7,tab:rank_objective_ablation,CIFAR-10,r=8,97.90,98.18,98.18,98.13,validation-selected ablation configuration
+7,tab:rank_objective_ablation,CIFAR-10,r=16,98.10,98.16,98.16,98.05,validation-selected ablation configuration

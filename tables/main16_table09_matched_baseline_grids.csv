@@ -1,0 +1,4 @@
+paper_table,label,dataset,anchor_pacf_kl_lambda_r8,grid_lower,grid_upper,notes
+9,tab:matched_grid,CoLA (T5-Base),1.5e-5,1.5e-6,1.5e-4,PACF-KL and LoRA+L2 swept identically
+9,tab:matched_grid,Stanford Cars (CLIP ViT-B/32),1.0e-4,1.0e-5,1.0e-3,PACF-KL and LoRA+L2 swept identically
+9,tab:matched_grid,CIFAR-10 (CLIP ViT-B/32),1.0e-4,1.0e-5,1.0e-3,PACF-KL and LoRA+L2 swept identically

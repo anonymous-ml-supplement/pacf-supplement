@@ -1,0 +1,6 @@
+paper_table,label,dataset,epochs,lambda_pac_r8,lambda_pac_r16,rho_reg_r8,rho_reg_r16,shared_notes
+12,tab:vision_compact,CIFAR-10,10,1.0e-4,1.0e-4,0.30,0.30,"batch size 128, LoRA lr 5e-4, full finetune lr 1e-4"
+12,tab:vision_compact,CIFAR-100,10,2.0e-4,2.5e-4,0.30,0.35,"batch size 128, LoRA lr 5e-4, full finetune lr 1e-4"
+12,tab:vision_compact,Cars,10,1.0e-4,1.6e-4,0.30,0.38,"batch size 128, LoRA lr 5e-4, full finetune lr 1e-4"
+12,tab:vision_compact,SVHN,10,5.0e-5,9.0e-5,0.30,0.36,"batch size 128, LoRA lr 5e-4, full finetune lr 1e-4"
+12,tab:vision_compact,DTD,10,1.0e-4,3.6e-4,0.30,0.42,"batch size 128, LoRA lr 5e-4, full finetune lr 1e-4"

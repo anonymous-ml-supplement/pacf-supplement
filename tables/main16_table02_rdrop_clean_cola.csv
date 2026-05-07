@@ -1,0 +1,5 @@
+paper_table,label,rank,method,clean_mcc_percent,notes
+2,tab:rdrop_clean,r=8,LoRA+R-Drop,83.32,"single configuration per cell, not 10-seed seed-paired audit"
+2,tab:rdrop_clean,r=8,PACF-Cons,83.80,"single configuration per cell, not 10-seed seed-paired audit"
+2,tab:rdrop_clean,r=16,LoRA+R-Drop,83.22,"single configuration per cell, not 10-seed seed-paired audit"
+2,tab:rdrop_clean,r=16,PACF-Cons,83.80,"single configuration per cell, not 10-seed seed-paired audit"

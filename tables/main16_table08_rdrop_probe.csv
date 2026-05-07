@@ -1,0 +1,5 @@
+paper_table,label,rank,method,clean_perf,probe_perf,perf_drop,notes
+8,tab:rdrop_probe,r=8,LoRA+R-Drop,83.32,78.16,5.16,probe applies LoRA-subspace Gaussian perturbations
+8,tab:rdrop_probe,r=8,PACF-Cons,83.80,79.52,4.28,probe applies LoRA-subspace Gaussian perturbations
+8,tab:rdrop_probe,r=16,LoRA+R-Drop,83.22,81.34,1.88,probe applies LoRA-subspace Gaussian perturbations
+8,tab:rdrop_probe,r=16,PACF-Cons,83.80,81.92,1.88,probe applies LoRA-subspace Gaussian perturbations

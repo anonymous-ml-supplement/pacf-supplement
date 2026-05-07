@@ -1,36 +1,32 @@
-# Table CSVs and Paper-Table Mapping
+# Table CSVs and Paper-Table Mapping, v8 for main16.tex
 
-This directory contains clean CSV summaries aligned to the current submitted paper table numbering. The recommended files for checking table values are the top-level table CSVs listed below and the audit maps `table_coverage_audit_v7.csv` and `table_value_audit_v7.csv`.
+This directory contains clean CSV summaries aligned to `main16.tex`, the advisor-updated paper version. The recommended files for checking table values are the `main16_tableXX_*.csv` files and the two audit maps:
 
-## Current mapping
+- `table_coverage_audit_v8_main16.csv`
+- `table_value_audit_v8_main16.csv`
 
-- `main_table1_10seed_audit.csv` matches main Table 1.
-- `main_table1_cola_pacf_cons_10seed_raw.csv` contains the sanitized raw 10-seed CoLA PACF-Cons rows used to update the PACF-Cons CoLA MCC entry in main Table 1.
-- `main_table1_cola_pacf_cons_10seed_summary_from_raw.csv` gives the mean and sample standard deviation derived from the PACF-Cons CoLA raw rows.
-- `main_table2_llm_summary.csv` matches main Table 2.
-- `appendix_table3_glue_summary.csv` matches Appendix Table 3.
-- `appendix_table4_clip_summary.csv` matches Appendix Table 4.
-- `appendix_table5_same_setup_ablation_paper_reported.csv` records Appendix Table 5 values.
-- `appendix_table6_rdrop_probe_paper_reported.csv` records Appendix Table 6 values.
-- `appendix_table7_mtbench_gpt52_summary.csv` matches Appendix Table 7.
-- `appendix_table8_matched_baseline_coefficient_grids.csv` records Appendix Table 8 values.
-- `appendix_table9_flat_lora_schedule_summary.csv` records Appendix Table 9.
-- `appendix_table10_glue_pacf_hyperparameters.csv` records Appendix Table 10.
-- `appendix_table11_vision_pacf_hyperparameters.csv` records Appendix Table 11.
-- `appendix_table12_llm_task_data_summary.csv` records Appendix Table 12.
-- `appendix_table13_llm_shared_optimization_lora_config.csv` records Appendix Table 13.
-- `appendix_table14_llm_reg_space_summary.csv` records Appendix Table 14.
-- `appendix_table15_llm_pacf_selected_hyperparameters.csv` records Appendix Table 15.
-- `appendix_table16_llm_seed_variability_summary.csv` records Appendix Table 16.
-- `appendix_table17_sdxl_lora_personalization_hyperparameters.csv` records Appendix Table 17.
-- `appendix_table18_sdxl_regularization_knobs.csv` records Appendix Table 18.
-- `table_coverage_audit_v7.csv` maps every current paper table and Figure 1 to supporting supplemental files.
-- `table_value_audit_v7.csv` records the final manual value audit against the current paper.
+## Current main16 table mapping
 
-## Domain-level exports
+- `main16_table01_10seed_controlled_audit.csv` matches Table 1 (`tab:ten_seed_main`).
+- `main16_table02_rdrop_clean_cola.csv` matches Table 2 (`tab:rdrop_clean`).
+- `main16_table03_alignment_control_cola.csv` matches Table 3 (`tab:alignment_control`).
+- `main16_table04_glue_summary.csv` matches Table 4 (`tab:glue_full`).
+- `main16_table05_vision_summary.csv` matches Table 5 (`tab:vision_full`).
+- `main16_table06_llm_full.csv` matches Table 6 (`tab:llm_full`).
+- `main16_table07_rank_objective_ablation.csv` matches Table 7 (`tab:rank_objective_ablation`).
+- `main16_table08_rdrop_probe.csv` matches Table 8 (`tab:rdrop_probe`).
+- `main16_table09_matched_baseline_grids.csv` matches Table 9 (`tab:matched_grid`).
+- `main16_table10_flat_lora_schedule.csv` matches Table 10 (`tab:flat_lora_cfg`).
+- `main16_table11_glue_pacf_hyperparameters.csv` matches Table 11 (`tab:glue_pacf_compact`).
+- `main16_table12_vision_pacf_hyperparameters.csv` matches Table 12 (`tab:vision_compact`).
+- `main16_table13_llm_task_data.csv` matches Table 13 (`tab:llm_task_data`).
+- `main16_table14_llm_shared_optimization_lora_config.csv` matches Table 14 (`tab:llm_shared_train`).
+- `main16_table15_llm_pacf_selected_hyperparameters.csv` matches Table 15 (`tab:llm_pacf_selected`).
 
-- `glue/` contains task-level GLUE result exports used by Appendix Table 3.
-- `clip/` contains dataset-level CLIP result exports used by Appendix Table 4.
-- `llm/` contains clean paper-aligned summaries for math, code, and chat evaluations used by main Table 2 and Appendix Table 7.
+## Supporting exports
 
-The LLM detail files were rewritten as clean paper-aligned summaries to avoid carrying stale detailed rows from older drafts. Table 5 and Table 6 are included as paper-reported summaries where separate raw ablation or probe logs were not present in the uploaded artifact. The updated Table 1 PACF-Cons CoLA mean and sample standard deviation are supported by the raw 10-seed CSV added in this version.
+- `main16_table01_cola_pacf_cons_10seed_raw.csv` contains the sanitized raw 10-seed CoLA PACF-Cons rows used for the PACF-Cons CoLA MCC entry in Table 1.
+- `main16_table01_cola_pacf_cons_10seed_summary_from_raw.csv` records the summary derived from those raw rows.
+- `glue/`, `clip/`, and `llm/` contain domain-level exports preserved from the previous supplemental artifact for traceability. The `main16_tableXX_*.csv` files are the paper-aligned source of truth for the current paper tables.
+
+The previous v7 table-numbering files were removed from the top level to avoid stale mappings against earlier drafts.

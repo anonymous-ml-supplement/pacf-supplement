@@ -1,0 +1,9 @@
+paper_table,label,block,method,cola_mcc_percent_mean_pm_std,cars_acc_percent_mean_pm_std,cifar10_acc_percent_mean_pm_std,delta_boot_cars_pp_ci,wilcoxon_p_cars,delta_cola_pp,delta_cifar10_pp,notes
+1,tab:ten_seed_main,"Primary methods, same training budget",LoRA,58.70±1.76,72.98±0.72,98.02±0.10,"-0.08 [-0.25,+0.10]",0.492,-0.08,+0.02,10 aligned seeds
+1,tab:ten_seed_main,"Primary methods, same training budget",Flat-LoRA,58.34±1.66,72.54±0.59,97.99±0.07,"-0.51 [-0.77,-0.27]",0.004,-0.45,0.00,10 aligned seeds
+1,tab:ten_seed_main,"Primary methods, same training budget",LoRA+L2,58.79±1.33,73.05±0.75,97.99±0.11,0 (ref.),ref.,0,0,reference method
+1,tab:ten_seed_main,"Primary methods, same training budget",PACF-Cons,59.05±1.23,73.05±0.78,98.02±0.06,"-0.001 [-0.31,+0.40]",0.492,+0.26,+0.03,10 aligned seeds
+1,tab:ten_seed_main,"Calibration check, not a competing optimizer",PACF-KL,58.78±1.76,73.05±0.75,98.02±0.11,"0 [0,0]",1.000,-0.01,+0.03,gradient-equivalent calibration check under fixed variances
+1,tab:ten_seed_main,"Recent LoRA variants, additional context",PiSSA,58.29±1.55,70.55±0.35,97.23±0.12,"-2.51 [-3.13,-1.92]",0.002,-0.50,-0.76,additional context
+1,tab:ten_seed_main,"Recent LoRA variants, additional context",CLoRA,58.46±0.86,72.79±0.70,98.02±0.09,"-0.26 [-0.55,+0.05]",0.131,-0.32,+0.02,additional context
+1,tab:ten_seed_main,"Recent LoRA variants, additional context",StelLA-style,57.50±1.25,72.89±0.46,97.18±0.13,"-0.16 [-0.77,+0.45]",0.846,-1.29,-0.81,additional context

@@ -1,0 +1,18 @@
+supporting_csv,file_type,data_rows,status,audit_method
+main16_table01_10seed_controlled_audit.csv,paper table CSV,8,matches displayed values in main16.tex,manual extraction from main16 table block or preserved sanitized support
+main16_table01_cola_pacf_cons_10seed_raw.csv,raw support CSV,10,supports PACF-Cons CoLA Table 1 summary,manual extraction from main16 table block or preserved sanitized support
+main16_table01_cola_pacf_cons_10seed_summary_from_raw.csv,summary support CSV,4,supports PACF-Cons CoLA Table 1 summary,manual extraction from main16 table block or preserved sanitized support
+main16_table02_rdrop_clean_cola.csv,paper table CSV,4,matches displayed values in main16.tex,manual extraction from main16 table block or preserved sanitized support
+main16_table03_alignment_control_cola.csv,paper table CSV,3,matches displayed values in main16.tex,manual extraction from main16 table block or preserved sanitized support
+main16_table04_glue_summary.csv,paper table CSV,7,matches displayed values in main16.tex,manual extraction from main16 table block or preserved sanitized support
+main16_table05_vision_summary.csv,paper table CSV,7,matches displayed values in main16.tex,manual extraction from main16 table block or preserved sanitized support
+main16_table06_llm_full.csv,paper table CSV,7,matches displayed values in main16.tex,manual extraction from main16 table block or preserved sanitized support
+main16_table07_rank_objective_ablation.csv,paper table CSV,4,matches displayed values in main16.tex,manual extraction from main16 table block or preserved sanitized support
+main16_table08_rdrop_probe.csv,paper table CSV,4,matches displayed values in main16.tex,manual extraction from main16 table block or preserved sanitized support
+main16_table09_matched_baseline_grids.csv,paper table CSV,3,matches displayed values in main16.tex,manual extraction from main16 table block or preserved sanitized support
+main16_table10_flat_lora_schedule.csv,paper table CSV,3,matches displayed values in main16.tex,manual extraction from main16 table block or preserved sanitized support
+main16_table11_glue_pacf_hyperparameters.csv,paper table CSV,5,matches displayed values in main16.tex,manual extraction from main16 table block or preserved sanitized support
+main16_table12_vision_pacf_hyperparameters.csv,paper table CSV,5,matches displayed values in main16.tex,manual extraction from main16 table block or preserved sanitized support
+main16_table13_llm_task_data.csv,paper table CSV,3,matches displayed values in main16.tex,manual extraction from main16 table block or preserved sanitized support
+main16_table14_llm_shared_optimization_lora_config.csv,paper table CSV,10,matches displayed values in main16.tex,manual extraction from main16 table block or preserved sanitized support
+main16_table15_llm_pacf_selected_hyperparameters.csv,paper table CSV,3,matches displayed values in main16.tex,manual extraction from main16 table block or preserved sanitized support

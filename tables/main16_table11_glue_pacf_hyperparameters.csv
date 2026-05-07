@@ -1,0 +1,6 @@
+paper_table,label,task,epochs,lambda_pac_r8,lambda_pac_r16,rho_reg_r8,rho_reg_r16
+11,tab:glue_pacf_compact,MNLI,1,6e-6,3e-6,0.40,0.40
+11,tab:glue_pacf_compact,SST-2,10,3.5e-5,1.7e-5,0.30,0.36
+11,tab:glue_pacf_compact,CoLA,10,1.5e-5,1.1e-5,0.30,0.34
+11,tab:glue_pacf_compact,QNLI,1,2e-5,1e-5,0.30,0.36
+11,tab:glue_pacf_compact,MRPC,10,2e-5,8e-6,0.30,0.30
